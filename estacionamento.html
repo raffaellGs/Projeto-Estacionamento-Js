@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Estacionamento</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="logo">
+            <h2>LogoMarca</h2>
+        </div>
+        <div class="text"><p>Monitoramento e qualidade de Serviço</p>
+        </div>
+    </header>
+    <div class="form">
+        <p>Nome do Veículo</p>
+        <input type="text" id="name" placeholder="Digite o nome do Veículo">
+        Placa do Veículo
+        <input type="text" id="licence" placeholder="Digite a placa do Veículo">
+        <button id="send">Registrar</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Veículo</th>
+                <th>Placa</th>
+                <th>Horário</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+    </table>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
